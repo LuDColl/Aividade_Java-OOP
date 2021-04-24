@@ -1,13 +1,11 @@
-package Classes;
+package classes;
 
-public class cpf extends user{
-    
+public class cpf extends user {
 
-    public cpf(String nome,String doc) {
-        super(nome,doc);
-    
-        tipo="Fisico";
+    public cpf(String nome, String doc) {
+        super(nome, doc);
+
+        tipo = "Fisico";
     }
 
-    
 }

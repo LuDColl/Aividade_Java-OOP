@@ -1,18 +1,11 @@
-package Classes;
+package classes;
 
-public class cnpj extends user{
-  
-    
-   
-
+public class cnpj extends user {
 
     public cnpj(String nome, String doc) {
-        super(nome,doc);
-        
-        tipo="Juridico";
+        super(nome, doc);
+
+        tipo = "Juridico";
     }
 
-   
 }
-
-
